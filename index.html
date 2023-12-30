@@ -16,13 +16,14 @@
         <section class="bg-blue-200 w-9/12 mx-auto p-8">
             <h3 class="text-3xl font-medium">Please Login</h3>
             <div>
-                <input class="w-9/12 block p-3 rounded-xl" type="email" name="" placeholder="Enter your email address">
-                <input class="w-9/12 block my-2 p-3 rounded-xl" type="password" name="" placeholder="Enter your password">
-                <button class="bg-amber-600 px-8 py-2 text-white rounded-xl font-medium hover:bg-sky-700">Submit</button>
+                <input id="email-field" class="w-9/12 block p-3 rounded-xl" type="email" name="" placeholder="Enter your email address" required>
+                <input id="password-field" class="w-9/12 block my-2 p-3 rounded-xl" type="password" name="" placeholder="Enter your password" required>
+                <button id="submit-btn" class="bg-amber-600 px-8 py-2 text-white rounded-xl font-medium hover:bg-sky-700">Submit</button>
             </div>
         </section>
     </main>
-
+    <!-- link js -->
+    <script src="js/login.js"></script>
     <!-- link Tailwind Css -->
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
