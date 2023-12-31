@@ -3,7 +3,7 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     
     const password = document.getElementById('password-field').value;
     if(email==='tasdidnayem@gmail.com' && password==='1111'){
-        console.log('Valid User');
+        window.location.href = "bank.html";
     }else{
         console.log('Unvalid User');
     }
